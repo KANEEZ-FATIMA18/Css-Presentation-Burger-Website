@@ -1,0 +1,274 @@
+/* Responsive */
+@media (max-width <=768px) {
+  .slide {
+    flex: 0 0 220px;
+    margin-right: 0px !important;
+  }
+
+  .slider-heading {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+    flex: 0 0 160px;
+  }
+
+  .slider-heading {
+    font-size: 1em;
+  }
+}
+
+
+/* footer  */
+
+@media (width<=1200px) {
+  .footer-child {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .arrow{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .f-bottom{
+    overflow-x: hidden;
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
+
+/* born to be tasty & hero */
+
+
+@media screen and (max-width: 736px) {
+
+  .hero-1>h1,
+  .slider-heading , .bites-content> h2 {
+    font-size: 11rem !important;
+  }
+
+  .hero-btn {
+    font-size: 13px !important;
+    padding: 8px 14px !important;
+  }
+}
+
+
+@media screen and (max-width: 593px) {
+
+  .hero-1>h1,
+  .slider-heading , .bites-content>h2 {
+    font-size: 9rem !important;
+  }
+}
+
+
+
+@media screen and (max-width: 449px) {
+
+  .hero-1>h1,
+  .slider-heading .bites-content>h2 {
+    font-size: 7rem !important;
+  }
+}
+
+
+@media screen and (max-width: 550px) {
+  .wrapper-box {
+    height: 90vh !important;
+  }
+}
+
+
+/* ========== RESPONSIVE BORN TO BE TASTY ========== */
+
+@media screen and (max-width: 600px) {
+  .slider-heading {
+    transform: scaleX(0.8);
+  }
+
+  .slide-bottom p {
+    font-size: 1rem;
+  }
+
+  .slide-bottom button {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+}
+
+
+/* our signature bites  */
+@media screen and (max-width: 1150px) {
+  .bites-left h3{
+    font-size: 5em !important;
+  }
+  .bites-card{
+    flex-direction: column-reverse;
+    row-gap: 40px;
+    padding-top: 30px !important;
+    transform: none !important;
+  }
+  .bites-left{
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    row-gap: 30px;
+  }
+  .bites-price{
+    right: 40%;
+  }
+  
+}
+
+@media screen and (max-width: 1039px){
+  .bites-left h3{
+    font-size: 4em !important;
+  }
+
+}
+
+
+
+@media screen and (max-width: 740px){
+  .bites-right{
+    width: 70% !important;
+  }
+  .bites-card{
+    padding: 0px !important;
+    width: 90% !important;
+  }
+  .bites-left{
+    width: 100%;
+    
+  }
+  .bites-content >h2 , .table-content h2 {
+    font-size: 8em !important;
+  }
+}
+
+@media screen and (max-width: 850px){
+    .bites-content >h2 , .table-content h2 {
+       font-size: 9em !important ;
+    }
+  }
+
+@media screen and (max-width: 665px){
+    .bites-content >h2 , .table-content h2 {
+       font-size: 7em !important ;
+    }
+  }  
+
+
+@media screen and (max-width: 531px){
+    .bites-content >h2 , .table-content h2 {
+       font-size: 5em !important ;
+    }
+     .table-content p{
+      font-size: 1em !important;
+    }
+     .bites-left p , .pra-story{
+      font-size: 1em !important;
+    }
+    .story-main p{
+      font-size: 1em !important;
+    }
+    .story-card{
+       height: auto
+     
+    }
+    .pra-story{
+      width: 100%;
+      height: auto;
+       padding: 20px 10px;
+    }
+
+   
+  } 
+
+  
+@media screen and (max-width: 1024px){
+  .story-card{
+    width: 90vw;
+  }
+}
+
+
+/* __________________RESPONSIVE MENU SECTION ________________ */
+@media (max-width: 1198px) {
+    .menu-center{
+        display: none;
+    }
+    .menu-left h2{
+        font-size: 78px;
+        width: auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .menu-child{
+        flex-direction: column;
+        text-align: center;
+        row-gap: 20px;
+        width: auto;
+        margin: 0 auto;
+    }
+    .menu-left{
+        width: 50%;
+    }
+    .menu-right{
+        width: 40%;
+    }
+    .menu-left h2{
+        font-size: 50px;
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-child{
+        padding: 20px;
+    }
+    .menu-left{
+        width: auto;
+    }
+    .menu-right{
+        width:auto;
+    }
+}
+/* meet the team  */
+
+@media (max-width: 768px) {
+  .team-slide {
+    flex: 0 0 260px !important;
+  }
+
+  .team-slide img {
+    height: 350px !important;
+  }
+
+  .team-slide h4 {
+    font-size: 2em !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .team-slide {
+    flex: 0 0 220px !important;
+  }
+
+  .team-slide img {
+    height: 300px !important;
+  }
+
+  .team-slide h4 {
+    font-size: 1.5em !important;
+  }
+}
